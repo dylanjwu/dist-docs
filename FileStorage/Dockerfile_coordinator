@@ -1,0 +1,3 @@
+FROM openjdk:17 AS coordinator-build
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp/./target
